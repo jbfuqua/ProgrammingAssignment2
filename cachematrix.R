@@ -48,7 +48,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   ## build the list to return
   
-  list(set = set, get = get, setinv = setinv, getinv = getinv, x)
+  list(set = set, get = get, setinv = setinv, getinv = getinv, compmat = compmat)
 }
 
 
